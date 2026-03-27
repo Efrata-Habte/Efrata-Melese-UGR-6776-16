@@ -1,0 +1,56 @@
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+
+# iOS
+**/DerivedData/
+**/GeneratedPluginRegistrant.*
+**/Flutter/Flutter.framework/
+**/Flutter/Flutter.podspec
+**/Pods/
+**/Runner/Runner.xcworkspace/
+**/Runner/xcuserdata/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/engine/*
+
+# Android
+**/gradle/**
+**/local.properties
+**/.gradle
+**/app/build/
+**/build/
+**/android/*.iml
+**/android/*/build/
+
+# Editor
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# JetBrains / VS Code metadata
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+**/.DS_Store
+
+# Others
+*.lock
+pubspec.lock
+
+# Generated files
+*.dart.js
+*.info.json
+*.symbols
+*.map
