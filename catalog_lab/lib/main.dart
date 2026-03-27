@@ -34,32 +34,32 @@ class CatalogScreen extends StatelessWidget {
 
   final List<Product> products = [
     Product(
-      name: 'Laptop',
-      price: '\$999',
+      name: 'Jebena (Coffee Pot)',
+      price: '\$25',
       imageUrl:
-          'https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=800',
+          'https://images.pexels.com/photos/6205787/pexels-photo-6205787.jpeg?auto=compress&cs=tinysrgb&w=800',
       color: Colors.brown,
     ),
     Product(
-      name: 'Coffee Mug',
-      price: '\$15',
+      name: 'Ethiopian Coffee Beans',
+      price: '\$18',
       imageUrl:
-          'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800',
-      color: Colors.blue,
-    ),
-    Product(
-      name: 'Headphones',
-      price: '\$49',
-      imageUrl:
-          'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=800',
+          'https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=800',
       color: Colors.green,
     ),
     Product(
-      name: 'Smartphone',
-      price: '\$699',
+      name: 'Habesha Kemis',
+      price: '\$75',
       imageUrl:
-          'https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=800',
+          'https://images.pexels.com/photos/6311392/pexels-photo-6311392.jpeg?auto=compress&cs=tinysrgb&w=800',
       color: Colors.purple,
+    ),
+    Product(
+      name: 'Traditional Coffee Cups',
+      price: '\$30',
+      imageUrl:
+          'https://images.pexels.com/photos/6205792/pexels-photo-6205792.jpeg?auto=compress&cs=tinysrgb&w=800',
+      color: Colors.orange,
     ),
   ];
 
