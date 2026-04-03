@@ -38,26 +38,14 @@ class HomeScreen extends StatelessWidget {
 class DetailsScreen extends StatelessWidget {
     const DetailsScreen({super.key});
 
-    @override
-    Widget build(BuildContext context) {
-        return Scaffold(
-            appBar: AppBar(title: const Text('Details'),),
-            body: Center(
-                child: Column(
-                    children: [
-                        Text('This is the details page.'),
-                        SizedBox(height: 30.0,),
-                        ElevatedButton(
-                            // onPressed: () => context.go('/details'),
-                            // onPressed: () => context.go('/product/42?filter=popular'),
-                            onPressed: () => context.goNamed('home'), 
-                            child: const Text('Back'),
-                        ),
-                    ],
-                ),
-            ),
-        );
-    }
+      @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Details')),
+      body: const Center(child: Text('This is the details screen!')),
+    );
+  }
+
 }
 
 class MyApp extends StatelessWidget {
